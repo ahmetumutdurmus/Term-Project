@@ -8,14 +8,7 @@ http://denizyuret.github.io/Knet.jl/latest/index.html
 
 # The Model 
 
-The model proposed in the 
-
-Cho et al.(2014):
-https://arxiv.org/abs/1406.1078
-
-Bahdanau et al.(2014):
-https://arxiv.org/abs/1409.0473
-
+The model proposed in the [Bahdanau et al.(2014)](https://arxiv.org/abs/1409.0473) is an improvement upon the model presented in [Cho et al.(2014)](https://arxiv.org/abs/1406.1078)
 
 # The Data
 
