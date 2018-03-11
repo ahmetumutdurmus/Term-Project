@@ -1,20 +1,18 @@
 # Neural machine translation by jointly learning to align and translate. Bahdanau et al.
 
-This repository contains the code necessary for the replication of much celebrated work "Bahdanau, D., Cho, K., and Bengio, Y. 2014. Neural machine translation by jointly learning to align and translate. In ICLR 2015." The Encoder-Decoder mechanism with attention as proposed in Bahdanau et al.(2015) is the workhorse model of state of the art machine translators. 
+This repository contains the code necessary for the replication of much celebrated work "Bahdanau, D., Cho, K., and Bengio, Y. 2014. Neural machine translation by jointly learning to align and translate. In ICLR 2015." The Encoder-Decoder mechanism with attention as proposed in Bahdanau et al. (2015) is the workhorse model of state of the art machine translators. 
 
-The code is written in Julia and a deep learning package Knet.jl is used as well. Knet.jl basically provides an AutoGrad function which takes care of the tedious backpropagation operations and also provides libraries for GPU support. Here is a link to the documentation of Knet:
-
-http://denizyuret.github.io/Knet.jl/latest/index.html
+The code is written in Julia and a deep learning package Knet.jl is used as well. Knet.jl basically provides an AutoGrad function which takes care of the tedious backpropagation operations and also provides libraries for GPU support. Here is a link to the documentation of [Knet.](http://denizyuret.github.io/Knet.jl/latest/index.html)
 
 # The Model 
 
-The model proposed in the [Bahdanau et al.(2014)](https://arxiv.org/abs/1409.0473) is an improvement upon the model presented in [Cho et al.(2014)](https://arxiv.org/abs/1406.1078)
+The model proposed in the [Bahdanau et al. (2014)](https://arxiv.org/abs/1409.0473) is an improvement upon the model presented in [Cho et al. (2014)](https://arxiv.org/abs/1406.1078). Cho et al. (2014) proposes an architecture called encoder-decoder. Bahdanau et al. (2014) proposes an attention mechanism over the encoder-decoder architecture and trains both models on the same dataset for comparison purposes.  
 
 # The Data
 
-The model proposed uses English-French parallel corpus as provided by ACL WMT'14. 
+The model proposed uses English-French parallel corpus as provided by [ACL WMT'14.](http://www.statmt.org/wmt14/translation-task.html) 
 
-http://www.statmt.org/wmt14/translation-task.html
+
 
 http://www-lium.univ-lemans.fr/~schwenk/cslm_joint_paper/
 
