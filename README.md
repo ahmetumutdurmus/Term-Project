@@ -1,10 +1,30 @@
-# Term-Project
+# Neural machine translation by jointly learning to align and translate. Bahdanau et al.
 
-This repository contains the code necessary for the replication of much celebrated work "Bahdanau, D., Cho, K., and Bengio, Y. 2014. Neural machine translation by jointly learning to align and translate. In ICLR 2015." The Encoder-Decoder mechanism with alignment as proposed in Bahdanau et al.(2015) is the workhorse model of state of the art machine translators. 
+This repository contains the code necessary for the replication of much celebrated work "Bahdanau, D., Cho, K., and Bengio, Y. 2014. Neural machine translation by jointly learning to align and translate. In ICLR 2015." The Encoder-Decoder mechanism with attention as proposed in Bahdanau et al.(2015) is the workhorse model of state of the art machine translators. 
 
 The code is written in Julia and a deep learning package Knet.jl is used as well. Knet.jl basically provides an AutoGrad function which takes care of the tedious backpropagation operations and also provides libraries for GPU support. Here is a link to the documentation of Knet:
 
 http://denizyuret.github.io/Knet.jl/latest/index.html
+
+# The Model 
+
+The model proposed in the 
+
+Cho et al.(2014):
+https://arxiv.org/abs/1406.1078
+
+Bahdanau et al.(2014):
+https://arxiv.org/abs/1409.0473
+
+
+# The Data
+
+The model proposed uses English-French parallel corpus as provided by ACL WMT'14. 
+
+http://www.statmt.org/wmt14/translation-task.html
+
+http://www-lium.univ-lemans.fr/~schwenk/cslm_joint_paper/
+
 
 # The GPU Problem
 Deep learning models typically contain millions of parameters and trained on millions of instances so the typical PC falls way too short of the computational power required for experimenting with relevant deep learning models. This applies to our case as well. GPU machines are considerably faster than regular Central Processing Unit (CPU) machines when it comes to training deep learning models. Thus people typically use Graphical Processing Unit (GPU) machines to circumvent the computational power problems described above.
