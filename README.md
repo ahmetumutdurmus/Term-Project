@@ -1,10 +1,10 @@
 # Comp 541 Project
 
-This repository contains the code necessary for the replication of much celebrated work "Bahdanau, D., Cho, K., and Bengio, Y. 2014. Neural machine translation by jointly learning to align and translate. In ICLR 2015." The Encoder-Decoder mechanism with attention as proposed in Bahdanau et al. (2015) is the workhorse model of state of the art machine translators. 
+This repository contains the code necessary for the replication of much celebrated work "Bahdanau, D., Cho, K., and Bengio, Y. 2014. Neural machine translation by jointly learning to align and translate. In ICLR 2015." The Encoder-Decoder mechanism with attention as proposed in Bahdanau et al. (2015) is the workhorse model of state of the art neural machine translators. 
 
-This replication is done as a requirement of Comp 541 Deep Learning course of Koç University, Istanbul/ Turkey.   
+This replication is done as a requirement of Comp 541 Deep Learning course of [Koç University](https://www.ku.edu.tr/en/home).   
 
-The code is written in Julia and a deep learning package Knet.jl is used as well. Knet.jl basically provides an AutoGrad function which takes care of the tedious backpropagation operations and also provides libraries for GPU support. Here is a link to the documentation of [Knet.](http://denizyuret.github.io/Knet.jl/latest/index.html)
+The code is written in Julia and the deep learning package [Knet.jl](http://denizyuret.github.io/Knet.jl/latest/index.html). Knet.jl basically provides an AutoGrad function which takes care of the tedious backpropagation operations and also provides libraries for GPU support.
 
 # The Model 
 
