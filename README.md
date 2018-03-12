@@ -12,7 +12,7 @@ The model proposed in the [Bahdanau et al. (2014)](https://arxiv.org/abs/1409.04
 
 # The Data
 
-The model proposed uses English-French parallel corpus as provided by [ACL WMT'14.](http://www.statmt.org/wmt14/translation-task.html) The data has to be preprocessed as is explained on Bahdanau et al. (2014) and Cho et al. (2014). Further information on the data can be found at the [link provided](https://docs.google.com/spreadsheets/d/1RGxpRhzQm0-NSgDX6_ljcOEUs4EQYtCWo6fK9fVMDiE/edit#gid=0)
+The model proposed uses English-French parallel corpus as provided by [ACL WMT'14.](http://www.statmt.org/wmt14/translation-task.html) The data has to be preprocessed as is explained on Bahdanau et al. (2014) and Cho et al. (2014). Further information on the data can be found at the [link provided.](https://docs.google.com/spreadsheets/d/1RGxpRhzQm0-NSgDX6_ljcOEUs4EQYtCWo6fK9fVMDiE/edit#gid=0)
 
 
 # The GPU Problem
